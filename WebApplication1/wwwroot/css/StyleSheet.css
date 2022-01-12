@@ -6,6 +6,11 @@ label{
     color:dimgrey;
 }
 
+input {
+    width: auto;
+    margin: 10px;
+}
+
 h2 {
     font-style: italic;
 }

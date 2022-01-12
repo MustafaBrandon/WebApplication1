@@ -2,36 +2,49 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Encryptions only!!</title>
+    <title>Mission 2</title>
+    <link rel="icon" href="img/moneyBags.jpg" />
     <link href="css/StyleSheet.css" rel="stylesheet" />
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
 </head>
 <body>
     <h1>Welcome to the beginnings of 413!</h1>
-    <h2>Here we like cryptography sometimes</h2>
+    <h2>My name is Brandon Hunt</h2>
+    <h2>A very cool rendition of this assignment!</h2>
     <img id="picture" src="img/encryption.jpg" />
-    <p>This site will not really do anything but this:</p>
+    <h2>Here is a picutre of me smiling that I'm in the core. (this is what I enjoy: smiling)</h2>
+    <img id="brandon" src="img/brandonSmiling.jpg" width="300"/>
+
+    <p>Some cool things I'd enjoy doing for work post schooling:</p>
     <ul>
-        <li>Post encrypted stuff</li>
-        <li>Decrypt stuff</li>
-        <li>Talk about stuff</li>
+        <li>Smart contract development (maybe auditting)</li>
+        <li>Fin-tech stuff</li>
+        <li>Hacking things (whitehat?)</li>
+        <li>Probably more development side though</li>
     </ul>
 
-    <h3>Do a form</h3>
+    <h3>Calculate your grade in 413! </h3>
     <form>
-        <label>From:</label>
-        <input id="from" /><br>
-        <label>Subject:</label>
-        <input id="subject" /><br>
-        <label>Message:</label>
-        <textarea id="message" rows="4"></textarea><br>
-        <input id="buttonSend" type="button" value="Send Message" />
-
+        <label>Enter in the percentages you expect to recieve ie 95% -> 95</label>
+        <br>
+        <label>Assignments:</label>
+        <input id="assignments" type="number" min="0" max="100" /><br>
+        <label>Group Projects:</label>
+        <input id="group"  type="number" min="0" max="100" /><br>
+        <label>Quizzes:</label>
+        <input id="quizzes"  type="number" min="0" max="100" /><br>
+        <label>Exams:</label>
+        <input id="exams"  type="number" min="0" max="100" /><br>
+        <label>INTEX:</label>
+        <input id="intex"  type="number" min="0" max="100" /><br>
+        <input id="buttonSend" type="button" value="What will I get?" />
 
     </form>
+    <br><br>
+
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="lib/jquery/jquery-3.6.0.min.js"></script>
-    <script src="js/fanmail.js"></script>
+    <script src="js/doStuff.js"></script>
 </body>
 </html>
