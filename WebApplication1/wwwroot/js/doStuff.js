@@ -20,7 +20,7 @@ $("#buttonSend").click(function () {
     else if (grade < 94) { message = "A- Great work!" }
     else if (grade < 97) { message = "A sweeeet!" }
     else { message = "A+ perfect!" }
-    let finalMessage = ("Your estimated final grade is: " + (grade) + " which is a " + message);
+    let finalMessage = ("Your estimated final grade is: " + (grade.toFixed(2)) + " which is a " + message);
     alert(finalMessage);
 })
 
